@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      'default': ['Oswald', 'sans-serif'],
+    },
+    },
   },
   plugins: [],
 }
