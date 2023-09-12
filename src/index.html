@@ -10,6 +10,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 		<script src="./js/mobileMenu.js" defer></script>
+		<script src="./js/moveImages.js" defer></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
 		
 		<title>Plastimat - Kezdőlap</title>
 
@@ -91,19 +94,23 @@
 		<!--VALLALATUNK-->
 		
 		<!--IMAGES-->
-		<div class="absolute w-96 h-96 ml-52 -translate-y-40 z-10">
-			<div class="w-full h-full grid gap-3 grid-rows-2 grid-cols-4">
-				<!--<img src="./images/p3.jpg" class="bg-black col-span-3 row-span-1 rounded-xl" />-->	
-				<div class="bg-red-400 col-start-1 col-span-4 bg-green-500 rounded-xl bg-[url('/src/images/p1.jpg')] bg-center bg-cover bg-no-repeat"></div>
-				<div class="bg-red-400 col-start-1 col-span-2 bg-yellow-500 rounded-xl bg-[url('/src/images/p2.jpg')] bg-center bg-cover bg-no-repeat"></div>
-				<div class="bg-red-400 col-start-3 col-span-2 bg-purple-600 rounded-xl bg-[url('/src/images/p3.jpg')] bg-center bg-cover bg-no-repeat"></div>
+		<div class="absolute w-2/4 h-auto z-10 flex justify-end items-end bg-red-500">
+
+			<div id="headerImages" class="hidden lg:inline w-[30rem] h-[30rem] ml-24 mr-24 -translate-y-40">
+				<div class="w-full h-full grid gap-3 grid-rows-2 grid-cols-4">
+					<!--<img src="./images/p3.jpg" class="bg-black col-span-3 row-span-1 rounded-xl" />-->	
+					<div class="col-start-1 col-span-4 rounded-xl bg-[url('/src/images/p1.jpg')] bg-center bg-cover bg-no-repeat"></div>
+					<div class="col-start-1 col-span-2 rounded-xl bg-[url('/src/images/p2.jpg')] bg-center bg-cover bg-no-repeat"></div>
+					<div class="col-start-3 col-span-2 rounded-xl bg-[url('/src/images/p3.jpg')] bg-center bg-cover bg-no-repeat"></div>
+				</div>
 			</div>
+
 		</div>
 
-		<div class="ml-14 mr-14 h-auto w-auto md:justify-end md:flex md:align-end md:items-end md:ml-52 lg:mr-52">
+		<div class=" mr-14 ml-14 h-auto w-auto lg:justify-end lg:flex lg:align-end lg:items-end lg:ml-52 lg:mr-52">
 
 			<!--VALLALAT-->
-			<div class="w-auto h-auto mt-3 font-light md:w-2/4">
+			<div class="w-auto h-auto mt-3 font-light md:w-2/4 lg:w-2/4" >
 				<span class="text-xl font-semibold">Vállalatunk</span><br>
 				<span class="">A Plastimat Magyarország Kft. műanyag autóalkatrészeket gyárt. <br>
 				Főbb termékei:
