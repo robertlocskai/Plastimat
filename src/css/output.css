@@ -662,6 +662,14 @@ video {
   margin-right: 0px;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
 .flex {
   display: flex;
 }
@@ -720,6 +728,10 @@ video {
 
 .h-\[35rem\] {
   height: 35rem;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .w-2\/4 {
