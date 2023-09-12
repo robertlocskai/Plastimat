@@ -9,7 +9,7 @@ $(window).scroll(function() {
   
   else {
 
-    if(scrollTop < 150) {
+    if(scrollTop < 250) {
 
         $("#headerImages").css({"margin-top": -($(window).scrollTop())/5 + "px"});   
 
