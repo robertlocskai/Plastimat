@@ -1172,6 +1172,18 @@ body {
     margin-top: 13rem;
   }
 
+  .lg\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .lg\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-36 {
+    margin-top: 9rem;
+  }
+
   .lg\:inline-block {
     display: inline-block;
   }
