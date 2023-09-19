@@ -614,6 +614,10 @@ video {
   grid-row-start: 3;
 }
 
+.float-right {
+  float: right;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -910,6 +914,10 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .pb-3 {
