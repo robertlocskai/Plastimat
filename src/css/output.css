@@ -658,6 +658,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .flex {
   display: flex;
 }
